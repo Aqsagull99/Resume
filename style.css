@@ -1,0 +1,87 @@
+/* styles.css */
+body {
+    font-weight: bold;
+    background-image: url(https://i.pinimg.com/564x/10/71/49/1071496f32dd125c03bcaf6ad4b10e00.jpg);
+    letter-spacing: 1px !important;
+    /* text-decoration: underline; */
+    border-bottom: 3px solid white; /* Add white underline with thickness */
+    padding-bottom: 3px; /* Adjust spacing between text and underline */
+    
+    
+
+
+}
+
+.resume {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #5A0F28; 
+    border-radius: 8px;
+    box-shadow: 0 15px 40px rgba(255, 255, 0, 0.75);
+    
+    
+}
+
+h1, h2 {
+    text-align: center;
+    color: white !important;
+    text-transform: uppercase;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+
+
+button:hover {
+    background-color: yellow;
+    box-shadow: 0 6px 15px rgba(255, 255, 0, 0.7); 
+}
+
+
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 15px 40px rgba(255, 255, 0, 0.75); 
+
+}
+
+ img{
+    width: 300px;
+    height: 400px;
+} 
+
+
+h3{
+    color: white !important;
+    font-size: 2rem;
+    border-bottom: 3px solid white; /* White underline with thickness */
+    padding-bottom: 3px; /* Adjust spacing between text and underline */
+    display: inline-block; /* So the underline applies only to the text */
+
+}
+
+
+li{
+    color: white !important;
+    font-size: 4,3rem;
+    
+
+}
+
+
+p{
+    color: white !important;
+    
+
+}
